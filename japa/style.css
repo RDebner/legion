@@ -128,8 +128,10 @@ footer a:hover {
 
     header {
         display: flex;
-        justify-content: center;
-        text-align: center;
+        /* justify-content: center;
+        align-items: center;
+        text-align: center; */
+        margin: auto;
         font-size: 40px;
     }
     
@@ -196,8 +198,8 @@ footer a:hover {
     }
 
     img {
-        width: 150px;
-        height: 150px;
+        width: 200px;
+        height: 200px;
     }
 
     video {
@@ -217,6 +219,6 @@ footer a:hover {
     }
 
     body {
-        background-color: blue;
+        background-color: red;
     }
 }
