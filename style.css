@@ -80,3 +80,58 @@ footer a:hover {
     text-decoration: none;
     color: aquamarine;
 }
+
+@media (max-width: 1024px) {
+
+    .foto-perfil {
+        width: 150px;
+        height: 150px;
+    }    
+
+}
+
+@media (max-width: 768px) {
+    
+    .foto-perfil {
+        width: 100px;
+        height: 100px;
+    }
+
+}
+
+@media (max-width: 425px) {
+
+    nav {
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        align-items: flex-start;
+        gap: 20px;
+        position: relative;
+        justify-content: left;
+
+        width: 100%;
+    }
+
+    .nome {
+        padding-left: 20px;
+        color: #fff;
+    }
+
+    .conteudo-principal {
+        position: relative;
+        padding-top: 25px;
+        left: 0;
+    }
+
+    .perfil {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: left;
+    }
+
+    footer {
+        position: relative;
+    }
+}
