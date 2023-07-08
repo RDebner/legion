@@ -128,13 +128,13 @@ footer a:hover {
 
     header {
         display: flex;
-        /* justify-content: center;
-        align-items: center;
-        text-align: center; */
-        margin: auto;
         font-size: 40px;
     }
     
+    header h1 {
+        position: relative;
+        left: 40px;
+    }
 
     header .voltar {
         position: absolute;
@@ -212,13 +212,10 @@ footer a:hover {
         align-items: center;
         position: relative;
         bottom: 0px;
-        width: 250px;
+        margin: auto;
         height: 30px;
         color: black;
         font-size: 18px;
     }
 
-    body {
-        background-color: red;
-    }
 }
