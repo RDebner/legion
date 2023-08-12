@@ -1,28 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;800&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Public Sans', sans-serif;
 }
 
 body {
-    background-color: beige;
+    background-color: #fff;
+    padding-top: 160px;
 }
 
 header {
     display: flex;
-    justify-content: center;
-    text-align: center;
-    font-size: 40px;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 40px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background-color: #fff;
 }
 
-header .voltar {
-    position: absolute;
-    left:  42px;
-    top: 10px;
-    color: black;
+header img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+header .logo {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+header nav {
+    display: flex;
+    gap: 50px;
+    font-size: 40px;
+    align-items: flex-end;
+    width: 400px;
+    justify-content: space-evenly;
+}
+
+header nav a {
+    color: #000;
     text-decoration: none;
-    font-size: 20px;
-    font-weight: bold;
+    background-color: transparent;
+    border-radius: 10px;
+    padding: 0 15px;
+    border: 2px solid #000;
+    transition: 0.3s ease;
+}
+
+header nav a:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+header a.titulo {
+    color: #000;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    font-size: 60px;
+    font-weight: 800;
 }
 
 main {
