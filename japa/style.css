@@ -21,6 +21,7 @@ header {
     width: 100%;
     top: 0;
     background-color: #fff;
+    z-index: 1;
     
 }
 
@@ -43,6 +44,7 @@ header nav {
     align-items: center;
     width: 400px;
     justify-content: space-evenly;
+    margin-right: 20px;
 }
 
 header nav a {
@@ -168,7 +170,7 @@ footer a {
 
 footer a:hover {
     text-decoration: none;
-    color: red;
+    color: cyan;
 } 
 
 @media (max-width: 425px) {

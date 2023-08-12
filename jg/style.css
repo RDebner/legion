@@ -8,7 +8,7 @@
 }
 
 body {
-    background-color: #fff;
+    background-color: #008000;
     padding-top: 160px;
 }
 
@@ -20,7 +20,7 @@ header {
     position: fixed;
     width: 100%;
     top: 0;
-    background-color: #fff;
+    background-color: #008000;
 }
 
 header img {
@@ -42,25 +42,26 @@ header nav {
     align-items: flex-end;
     width: 400px;
     justify-content: space-evenly;
+    margin-right: 30px;
 }
 
 header nav a {
-    color: #000;
+    color: #fff;
     text-decoration: none;
     background-color: transparent;
     border-radius: 10px;
     padding: 0 15px;
-    border: 2px solid #000;
+    border: 2px solid #fff;
     transition: 0.3s ease;
 }
 
 header nav a:hover {
-    background-color: #000;
-    color: #fff;
+    background-color: #fff;
+    color: #000;
 }
 
 header a.titulo {
-    color: #000;
+    color: #fff;
     text-decoration: none;
     display: flex;
     justify-content: center;
@@ -75,6 +76,7 @@ header a.titulo {
 }
 
 .conteudo h1 {
+    color: #fff;
     font-size: 80px;
     display: flex;
     justify-content: flex-start;
@@ -82,11 +84,13 @@ header a.titulo {
 
 .fotos {
     display: flex;
-    align-items: center;
+    justify-content: center;
 }
 
 .fotos p {
-    padding-left: 8px;
+    position: absolute;
+    color: #000;
+    text-align: center;
 }
 
 .container {
@@ -114,23 +118,22 @@ img {
 footer {
     display: flex;
     justify-content: center;
-    align-items: center;
-    position: relative;
+ 
     bottom: 0px;
     width: 100%;
     height: 30px;
-    color: black;
+    color: #fff;
     font-size: 18px;
 }
 
 footer a {
     padding-left: 3px;
-    color: blue;
+    color: #fff;
 }
 
 footer a:hover {
     text-decoration: none;
-    color: red;
+    color: cyan;
 } 
 
 @media (max-width: 425px) {
