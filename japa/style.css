@@ -73,7 +73,7 @@ header a.titulo {
 
 main {
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
 }
 
 .conteudo {
@@ -84,7 +84,7 @@ main {
 .conteudo h1 {
     font-size: 80px;
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
 }
 
 .fotos-viagens {
@@ -124,6 +124,7 @@ main {
     display: flex;
     flex-direction: row;
     padding-top: 20px;
+    justify-content: center;
 }
 
 .container-fotos p , .container-foto p {

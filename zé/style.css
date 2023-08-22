@@ -15,7 +15,7 @@ body {
 header {
     display: flex;
     justify-content: space-between;
-    align-items: flex-end;
+    align-items: center;
     padding: 40px;
     position: fixed;
     width: 100%;
@@ -73,22 +73,23 @@ header a.titulo {
 
 main {
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
 }
 
 .conteudo {
-    margin: 30px;
+    margin: 30px 0;
     margin-bottom: 0;
 }
 
 .conteudo h1 {
     font-size: 60px;
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     color: #fff;
 }
 
 .conteudo h2 {
+    text-align: center;
     color: #fff;
 }
 
@@ -112,6 +113,7 @@ main {
     display: flex;
     flex-direction: row;
     padding-top: 20px;
+    justify-content: center;
 }
 
 .container-foto p {
@@ -127,12 +129,15 @@ main {
 
 .ze-e-amigos {
     display: flex;
+    flex-direction: column;
     align-items: center;
+    position: relative;
+    width: 520px;
 }
 
 .ze-e-amigos p {
     position: relative;
-    width: 250px;
+    width: 100%;
     padding: 0;
 }
 
@@ -178,4 +183,71 @@ footer a:hover {
 
 h2 {
     font-size: 35px;
+}
+
+@media (max-width: 875px) {
+    
+    header {
+        display: flex;
+        flex-direction: column;
+        font-size: 40px;
+        align-items: center;
+        padding: 25px 40px;
+    }
+
+    header nav {
+        margin: 25px 5px 0 5px;
+        gap: 20px;
+    }
+
+    header nav a {
+        padding: 0 5px;
+        font-size: 32px;
+    }
+
+
+    .conteudo h1 {
+        font-size: 25px;
+        display: flex;
+        justify-content: center;
+        color: #fff;
+    }
+    
+    .conteudo h2 {
+        font-size: 20px;
+        text-align: center;
+        color: #fff;
+    }
+
+    .ze-e-namorada {
+        height: 300px;
+        width: 250px;
+    }
+
+    .fotos p {
+        position: absolute;
+        color: #fff;
+        padding-top: 35px;
+        text-align: center;
+    }
+
+    .ze-e-cia {
+        width: 300px;
+        height: 250px;
+    }
+
+    .ze-e-amigos p {
+        position: relative;
+        width: 300px;
+        padding: 0;
+        font-size: 15px;
+    }
+
+    audio {
+        width: 300px;
+    }
+
+    video {
+        width: 250px;
+    }
 }
