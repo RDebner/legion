@@ -201,11 +201,12 @@ video {
     }
     
     video {
-        width: 350px;
+        width: 250px;
     }
 
     .nat-friends {
-        width: 360px;
+        width: 320px;
+        height: 300px;
     }
 
 }
